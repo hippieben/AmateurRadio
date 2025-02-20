@@ -32,5 +32,5 @@ conn = sqlite3.connect(db_file)
 output_df.to_sql("USState", conn, if_exists="replace", index=False)
 conn.close()
 
-print("Data successfully saved to USState.db in the FCC_Data table.")
+print("Data successfully saved to USState.db in the USState table.")
 
