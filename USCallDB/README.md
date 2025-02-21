@@ -8,3 +8,8 @@ Step 2: copy parse.py to that directory and run it with python parse.py
 Step 3: validate the output of the new sqlitedb with the sqlite.   sqlite USState.db        sqlite> select * from USState;  The resulting data should be formatted call|state
 
 Step 4: replace the existing USState.db file in your share/wsjtx directory
+
+
+
+I've also included a USState.db file you can use if you don't want to generate your own.
+I'll update it periodically.
